@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Maycon Tavares">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="/styles/reset.css">
+  <link rel="stylesheet" href="/styles/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+  <link type="image/png" sizes="16x16" rel="icon" href="img/favicon-16.png">
+  <link type="image/png" sizes="32x32" rel="icon" href="./img/favicon-32.png">
+  <title>Tavares Portfólio</title>
+</head>
+
+<body>
+  <header class="cabecalho content conteudo">
+    <section class="inicio" id="inicio">
+      <nav class="menu" id="menu">
+        <button id="btn_mobile" aria-label="Abrir Menu" aria-haspopup="true" aria-controls="menu_lista"
+          aria-expanded="false"><span id="hamburguer"></span> Menu</button>
+        <ul class="menu_lista" id="menu_lista" role="menu">
+          <li class="menu_item"><a href="#inicio">Início</a></li>
+          <li class="menu_item"><a href="#sobre">Sobre</a></li>
+          <li class="menu_item"><a href="#tecnologias">Habilidades</a></li>
+          <li class="menu_item"><a href="#experiencia">Projetos</a></li>
+          <li class="menu_item"><a href="#educacao">Educação</a></li>
+          <li class="menu_item"><a href="#contato">Contatos</a></li>
+        </ul>
+        <ul class="menu_links_lista">
+          <li class="menu_item_link"><a target="_blank" href="https://github.com/Tavares000"><img src="/img/github.svg"
+                alt="Icone do GitHub"></a></li>
+          <li class="menu_item_link"><a target="_blank" href="https://www.linkedin.com/in/tavares00/"><img
+                src="/img/linkedin.svg" alt="Icone do Linkedin"></a></li>
+          <li class="menu_item_link"><a target="_blank" href="https://wa.me/5534998806841"><img src="/img/whatsapp.svg"
+                alt="Icone do whatsapp"></a></li>
+        </ul>
+      </nav>
+
+      <div class="inicio_apresentacao">
+        <div class="inicio_caixa">
+          <div class="inicio_foto"><img src="./img/perfil.jpg" alt="Foto do Tavares Dev">
+            <h2>Tavares Dev <br><span>Front-End Developer</span></h2>
+            <a target="_blank" href="https://wa.me/5534998806841">Contratar</a>
+          </div>
+        </div>
+        <div class="inicio_textos">
+          <h1><span>Hi!</span> I'm Tavares</h1>
+          <h2>Desenvolvedor Front-End</h2>
+        </div>
+      </div>
+      <div class="inicio_btn">
+        <a class="botao" target="_blank" href="https://github.com/Tavares000">GitHub</a>
+        <a class="botao" target="_blank" href="https://www.linkedin.com/in/tavares00/">LinkedIn</a>
+      </div>
+    </section>
+  </header>
+
+  <section class="sobre content conteudo" id="sobre">
+    <h3 class="subtitulo_secao">SOBRE MIM</h3>
+    <h2 class="titulo_secao">QUEM SOU EU ?</h2>
+    <div class="sobre_caixa">
+      <div>
+        <p class="sobre_texto">Eu sou Maycon Tavares, um entusiasta do front-end apaixonado pela tecnologia.<br> Minha
+          jornada é marcada por estudos autodidatas e dedicação ao mundo digital.<br><br>Comecei, de fato, a transformar
+          minha
+          paixão em trabalho em junho de 2023. Hoje, não só desenvolvo projetos pessoais, como também busco realizar os
+          projetos de outras pessoas.<br>Quero fazer parte dos sonhos delas e ajudá-las a realizá-los.
+        </p>
+      </div>
+      <div class="sobre_foto"><img src="./img/sobre-foto.jpg" alt="Foto do Tavares Dev"></div>
+    </div>
+    <div class="sobre_btn">
+      <a class="botao" target="_blank" href="https://github.com/Tavares000">GitHub</a>
+      <a class="botao" target="_blank" href="https://www.linkedin.com/in/tavares00/">LinkedIn</a>
+    </div>
+  </section>
+  <section class="tecnologias content conteudo" id="tecnologias">
+    <h3 class="subtitulo_secao">Tecnologia</h3>
+    <h2 class="titulo_secao">Habilidades</h2>
+    <div class="tecnologias_conteiner">
+      <ul class="tecnologias_lista">
+        <li class="tecnologias_item"><img src="/img/html.svg" alt="icone do HTML5">HTML</li>
+        <li class="tecnologias_item"><img src="/img/css.svg" alt="icone do CSS">css</li>
+        <li class="tecnologias_item"><img src="/img/javascript.svg" alt="icone do Javascript">javascript</li>
+        <li class="tecnologias_item"><img src="/img/react.svg" alt="icone do React">react</li>
+        <li class="tecnologias_item"><img src="/img/git.svg" alt="icone do Git">git</li>
+        <li class="tecnologias_item"><img src="/img/github.svg" alt="icone do HTML5">github</li>
+      </ul>
+    </div>
+  </section>
+  <section class="experiencia content conteudo" id="experiencia">
+    <h3 class="subtitulo_secao">experiência</h3>
+    <h2 class="titulo_secao">projetos</h2>
+    <div class="experiencia_container">
+      <ul class="projetos_lista">
+        <li class="projetos_item">
+          <a class="projetos_links" target=_blank href="https://psicologa-tavares.vercel.app/">
+            <div class="conteiner_capa"><img src="/img/pscotavares.jpg" alt="Foto do site PsicoTavares"
+                class="capa_site"></div>
+            <h3 class="titulo_projetos">PsicoTavares</h3>
+          </a>
+          <div class="projetos_btn_container">
+            <a class="botao" target=_blank href="https://github.com/Tavares000/psicologa-tavares">GitHub</a>
+            <a class="botao" target=_blank href="https://psicologa-tavares.vercel.app/">Site</a>
+          </div>
+          <div class="tecnologia_container">
+            <img class="projetos_tecnologia" src="/img/html.svg" alt="icone do HTML5">
+            <img class="projetos_tecnologia" src="/img/css.svg" alt="icone do CSS">
+            <img class="projetos_tecnologia" src="/img/javascript.svg" alt="icone do Javascript">
+          </div>
+        </li>
+        <li class="projetos_item">
+          <a class="projetos_links" target=_blank href="https://tom-jazz-ten.vercel.app/">
+            <img src="/img/tom-jazz.jpg" alt="Foto do site Tom-jazz" class="capa_site">
+            <h3 class="titulo_projetos">Tom's Jazz</h3>
+          </a>
+          <div class="projetos_btn_container">
+            <a class="botao" target=_blank href="https://github.com/Tavares000/Tom-jazz">GitHub</a>
+            <a class="botao" target=_blank href="https://tom-jazz-ten.vercel.app/">Site</a>
+          </div>
+          <div class="tecnologia_container">
+            <img class="projetos_tecnologia" src="/img/html.svg" alt="icone do HTML5">
+            <img class="projetos_tecnologia" src="/img/css.svg" alt="icone do CSS">
+            <img class="projetos_tecnologia" src="/img/javascript.svg" alt="icone do Javascript">
+          </div>
+        </li>
+        <li class="projetos_item">
+          <a class="projetos_links" target=_blank href="https://alurabook-kappa-nine.vercel.app/">
+            <img src="/img/alura.jpg" alt="Foto do Site da Alura Books" class="capa_site">
+            <h3 class="titulo_projetos">Alura Books</h3>
+          </a>
+          <div class="projetos_btn_container">
+            <a class="botao" target=_blank href="https://github.com/Tavares000/alurabook">GitHub</a>
+            <a class="botao" target=_blank href="https://alurabook-kappa-nine.vercel.app/">Site</a>
+          </div>
+          <div class="tecnologia_container">
+            <img class="projetos_tecnologia" src="/img/html.svg" alt="icone do HTML5">
+            <img class="projetos_tecnologia" src="/img/css.svg" alt="icone do CSS">
+            <img class="projetos_tecnologia" src="/img/javascript.svg" alt="icone do Javascript">
+          </div>
+        </li>
+        <li class="projetos_item a-esconder escondido">
+          <a class="projetos_links" href="#">
+            <img src="/img/embreve.jpg" alt="Foto de em breve, criando site" class="capa_site">
+            <h3 class="titulo_projetos">Em Breve !</h3>
+          </a>
+          <div class="projetos_btn_container">
+            <a class="botao" href="#experiencia">GitHub</a>
+            <a class="botao" href="#experiencia">Site</a>
+          </div>
+          <div class="tecnologia_container">
+            <img class="projetos_tecnologia" src="/img/html.svg" alt="icone do HTML5">
+            <img class="projetos_tecnologia" src="/img/css.svg" alt="icone do CSS">
+            <img class="projetos_tecnologia" src="/img/javascript.svg" alt="icone do Javascript">
+          </div>
+        </li>
+        <li class="projetos_item a-esconder escondido">
+          <a class="projetos_links" href="#">
+            <img src="/img/embreve.jpg" alt="Foto de em breve, criando site" class="capa_site">
+            <h3 class="titulo_projetos">Em Breve !</h3>
+          </a>
+          <div class="projetos_btn_container">
+            <a class="botao" href="#experiencia">GitHub</a>
+            <a class="botao" href="#experiencia">Site</a>
+          </div>
+          <div class="tecnologia_container">
+            <img class="projetos_tecnologia" src="/img/html.svg" alt="icone do HTML5">
+            <img class="projetos_tecnologia" src="/img/css.svg" alt="icone do CSS">
+            <img class="projetos_tecnologia" src="/img/javascript.svg" alt="icone do Javascript">
+          </div>
+        </li>
+        <li class="projetos_item a-esconder escondido">
+          <a class="projetos_links" href="#">
+            <img src="/img/embreve.jpg" alt="Foto de em breve, criando site" class="capa_site">
+            <h3 class="titulo_projetos">Em Breve !</h3>
+          </a>
+          <div class="projetos_btn_container">
+            <a class="botao" href="#experiencia">GitHub</a>
+            <a class="botao" href="#experiencia">Site</a>
+          </div>
+          <div class="tecnologia_container">
+            <img class="projetos_tecnologia" src="/img/html.svg" alt="icone do HTML5">
+            <img class="projetos_tecnologia" src="/img/css.svg" alt="icone do CSS">
+            <img class="projetos_tecnologia" src="/img/javascript.svg" alt="icone do Javascript">
+          </div>
+        </li>
+      </ul>
+      <button id="btnVerMais" class="btn_vermais botao">Ver mais</button>
+
+    </div>
+
+  </section>
+  <section class="educacao content conteudo" id="educacao">
+    <h3 class="subtitulo_secao">Educação</h3>
+    <h2 class="titulo_secao">Certificados</h2>
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-pagination"></div>
+      <div class="swiper-wrapper ">
+        <!-- Slides -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-slide"><img src="/img/certificado-n1.jpg" alt="Foto do Certificado do Tavares"></div>
+        <div class="swiper-slide"><img src="/img/certificado-n2.jpg" alt="Foto do Certificado do Tavares"></div>
+        <div class="swiper-slide"><img src="/img/certificado-n3.jpg" alt="Foto do Certificado do Tavares"></div>
+        <div class="swiper-slide "><img src="/img/certificado-n4.jpg" alt="Foto do Certificado do Tavares"></div>
+      </div>
+    </div>
+
+  </section>
+  <section class="contato content conteudo" id="contato">
+    <h3 class="subtitulo_secao">contato</h3>
+    <h2 class="titulo_secao">Fale comigo</h2>
+    <div class="contatos_container">
+      <ul class="contatos_links_lista">
+        <li class="contatos_item_link"><a target="_blank" href="https://github.com/Tavares000"><img
+              src="/img/github.svg" alt="Icone do GitHub"></a></li>
+        <li class="contatos_item_link"><a target="_blank" href="https://www.linkedin.com/in/tavares00/"><img
+              src="/img/linkedin.svg" alt="Icone do Linkedin"></a></li>
+        <li class="contatos_item_link"><a target="_blank" href="https://wa.me/5534998806841"><img
+              src="/img/whatsapp.svg" alt="Icone do whatsapp"></a></li>
+      </ul>
+      <div class="formulario">
+        <h3>Dúvidas, sugestão ?</h3>
+        <form action="https://formsubmit.co/tavaresdev@outlook.com" method="POST" data-form class="form_container">
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" name="nome" required>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
+          <label for="textAreaMensagem">Mensagem</label>
+          <textarea name="textAreaMensagem" id="textAreaMensagem" cols=30" rows="08"></textarea>
+          <button class="botao" data-button>Enviar</button>
+        </form>
+
+      </div>
+    </div>
+  </section>
+  <footer class="conteudo">
+    <h2>Todos os direitos reservados @ Desenvolvido por <a href="https://linktr.ee/Tavaresdev">Tavares Dev </a></h2>
+  </footer>
+
+  <script type="module">
+    import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.mjs'
+
+    const swiper = new Swiper('.swiper', {
+      // Default parameters
+      slidesPerView: 3,
+      spaceBetween: 10,
+      // Responsive breakpoints
+      effect: 'flip',
+      cardsEffect: {
+        // ...
+      },
+
+      // If we need pagination
+      pagination: {
+        el: '.swiper-pagination',
+      },
+
+
+
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+
+    });
+  </script>
+  <script type="text/javascript" src="/js/script.js"></script>
+
+</body>
+
+</html>

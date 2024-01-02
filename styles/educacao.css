@@ -1,0 +1,46 @@
+.educacao {
+  background: var(--cor-preto);
+}
+
+.swiper {
+  padding: 1px 15px !important;
+  margin-bottom: 20px;
+}
+
+.swiper-slide {
+  padding-top: 30px;
+}
+
+.swiper-slide img {
+  width: 100%;
+  display: flex;
+  align-self: center;
+  border: 1px solid var(--cor-laranja);
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px var(--cor-laranja);
+  overflow: hidden;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  display: none !important;
+}
+
+
+@media screen and (min-width:744px) {
+  .swiper {
+    width: 80%;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .swiper {
+    width: 100vh;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: block !important;
+  }
+}

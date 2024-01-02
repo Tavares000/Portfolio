@@ -1,0 +1,90 @@
+.contato {
+  background: var(--background-preto);
+  margin-top: 1px;
+}
+
+.contato .titulo_secao {
+  color: var(--cor-branco) !important;
+}
+
+.form_container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+  margin: 0 auto;
+}
+
+.form_container input,
+textarea {
+  border: 1px solid var(--cor-branco);
+  border-radius: 10px;
+  box-shadow: 2px 1px 10px var(--cor-laranja);
+  padding: 5px 0;
+}
+
+.form_container label {
+  color: var(--cor-branco);
+}
+
+.contatos_container {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 45px;
+}
+
+.contatos_links_lista {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.contatos_item_link img {
+  width: 30%;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.formulario h3 {
+  color: var(--cor-branco);
+  text-align: center;
+  padding-bottom: 15px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width:744px) {
+  .contatos_item_link img {
+    width: 60%;
+  }
+
+  .contatos_container {
+    justify-content: space-between;
+  }
+
+  .form_container {
+    width: 80%;
+  }
+
+  .formulario {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .form_container {
+    width: 50%;
+  }
+
+  .contatos_links_lista {
+    display: none;
+  }
+
+}
